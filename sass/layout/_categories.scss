@@ -1,0 +1,19 @@
+.categories {
+    margin-top: 90px;
+    margin-bottom: 110px;
+    &__title{
+        margin-bottom: 80px;
+    }
+    &__list {
+        display: flex;
+        justify-content: center;
+    }
+    &__item {
+        max-width: calc((100% - 210px) / 4);
+        &:not(:last-child){
+            margin-right: 70px;
+        }
+    }
+}
+
+

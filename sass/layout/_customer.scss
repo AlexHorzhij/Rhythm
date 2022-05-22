@@ -1,0 +1,50 @@
+.customer {
+    padding-top: 240px;
+    &__title {
+        margin-bottom: 110px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    &__img-wrapper{
+        position: relative;
+        height: 341px;
+        flex: 0 0 407px;
+        background-image: url(/images/customers-sec/customer-bg.png);
+        background-position: left 0 center;
+        background-repeat: no-repeat;
+        margin-right: 146px;
+    }
+    &__img{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    &__text-wrapper {
+        width: 524px;
+    }
+            
+    &__text{
+        font-size: 24px;
+        line-height: 1.6;
+        color: var(--dark-text-color);
+        margin-bottom: 56px;
+    }
+    &__name {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.6;
+        color: var(#000000);
+        margin-bottom: 8px;
+    }
+    .customer__position {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.6;
+        letter-spacing: 0.08em;
+        color: #868686;
+    }
+    // .customer__mark {}
+}

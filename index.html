@@ -25,7 +25,7 @@
   <body>
     <header class="header">
       <div class="container header__container">
-        <a href="/" class="header__logo">
+        <a href="/" class="header__logo logo">
           <svg width="28" height="28" class="header__logo-icon">
             <use href="/images/sprite.svg#butterfly"></use>
           </svg>
@@ -75,11 +75,11 @@
     </section>
     <section class="store">
       <div class="container">
-        <h2 class="store__title">Check out the <span class="select">Store</span></h2>
+        <h2 class="store__title section__title">Check out the <span class="select">Store</span></h2>
         <div class="store__new">
           <div class="store__subtitle-wrapper">
             <h3 class="store__subtitle">New on the board</h3>
-            <span class="store__view">view all</span>
+            <a href="/" class="store__view">view all</a>
           </div>
           <ul class="store__list">
             <li class="store__card card">
@@ -117,7 +117,7 @@
         <div class="store__top">
           <div class="store__subtitle-wrapper">
             <h3 class="store__subtitle">Top selling</h3>
-            <span class="store__view">view all</span>
+            <a href="/" class="store__view">view all</a>
           </div>
           <ul class="store__list">
             <li class="store__card card">
@@ -154,5 +154,280 @@
         </div>
       </div>
     </section>
+    <section class="categories">
+      <div class="container">
+        <h2 class="categories__title section__title">
+          Choose based on <span class="select">Categories</span>
+        </h2>
+        <ul class="categories__list">
+          <li class="categories__item">
+            <a href="">
+              <picture>
+                <source
+                  srcset="
+                    ./images/guitar/guitar-acoustic.jpg    1x,
+                    ./images/guitar/guitar-acoustic@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img src="./images/guitar/guitar-acoustic.jpg" alt="" />
+              </picture>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="">
+              <picture>
+                <source
+                  srcset="
+                    ./images/guitar/guitar-electric.jpg    1x,
+                    ./images/guitar/guitar-electric@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img src="./images/guitar/guitar-electric.jpg" alt="" />
+              </picture>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="">
+              <picture>
+                <source
+                  srcset="
+                    ./images/guitar/guitar-basses.jpg    1x,
+                    ./images/guitar/guitar-basses@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img src="./images/guitar/guitar-basses.jpg" alt="" />
+              </picture>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="">
+              <picture>
+                <source
+                  srcset="
+                    ./images/guitar/guitar-collection.jpg    1x,
+                    ./images/guitar/guitar-collection@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img src="./images/guitar/guitar-collection.jpg" alt="" />
+              </picture>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="brands">
+      <div class="container">
+        <h2 class="brands__title section__title">
+          Featuring the <span class="select">Best Brands</span>
+        </h2>
+
+        <ul class="brands__list">
+          <li class="brands__item">
+            <a href=""><img src="./images/brands/brand1.png" alt="" /></a>
+          </li>
+          <li class="brands__item">
+            <a href=""><img src="./images/brands/brand2.png" alt="" /></a>
+          </li>
+          <li class="brands__item">
+            <a href=""><img src="./images/brands/brand3.png" alt="" /></a>
+          </li>
+          <li class="brands__item">
+            <a href=""><img src="./images/brands/brand4.png" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="benefits">
+      <div class="container">
+        <h2 class="benefits__title section__title">Why try <span class="select">Rhythm?</span></h2>
+        <ul class="benefits__list">
+          <li class="benefits__item">
+            <div class="benefits__icon-group">
+              <svg class="benefits__icon" width="32" height="32">
+                <use href="./images/sprite.svg#category"></use>
+              </svg>
+            </div>
+            <h3 class="benefits__subtitle">Smooth Browsing</h3>
+            <p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </li>
+          <li class="benefits__item">
+            <div class="benefits__icon-group">
+              <svg class="benefits__icon" width="32" height="32">
+                <use href="./images/sprite.svg#group"></use>
+              </svg>
+            </div>
+            <h3 class="benefits__subtitle">EASY Delivery</h3>
+            <p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </li>
+          <li class="benefits__item">
+            <div class="benefits__icon-group">
+              <svg class="benefits__icon" width="32" height="32">
+                <use href="./images/sprite.svg#wallet-tick"></use>
+              </svg>
+            </div>
+            <h3 class="benefits__subtitle">Smooth Browsing</h3>
+            <p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="customer">
+      <div class="container">
+        <h2 class="customer__title section__title">
+          What our <span class="select">customer’s</span> say
+        </h2>
+        <div class="customer__wrapper">
+          <div class="customer__img-wrapper">
+            <picture class="customer__img">
+              <source
+                srcset="
+                  ./images/customers-sec/customer.png    1x,
+                  ./images/customers-sec/customer@2x.png 2x
+                "
+                type="image/jpg"
+              />
+              <img src="./images/customers-sec/customer.png" alt="" />
+            </picture>
+          </div>
+          <div class="customer__text-wrapper">
+            <p class="customer__text">
+              “The Quality and Delivery is always on time, being a professional guitarist myself I
+              love the customer service the brand provides, highly recommend Rhythm anytime.”
+            </p>
+            <h3 class="customer__name">Ryan Wels</h3>
+            <p class="customer__position">PROFESSIONAL GUITARIST</p>
+            <ul class="customer__mark"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="app">
+      <div class="container app__wrapper">
+        <div class="app__left">
+          <h2 class="app__title section__title">
+            Browse and buy your <span class="select">favorite guitars</span> with Rhythm.
+          </h2>
+          <ul class="app__list">
+            <li class="app__item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/customers-sec/google-store.jpg    1x,
+                    ./images/customers-sec/google-store@2x.jpg 2x
+                  "
+                />
+                <img src="./images/customers-sec/google-store.jpg" alt="" />
+              </picture>
+            </li>
+            <li class="app__item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/customers-sec/app-store.jpg    1x,
+                    ./images/customers-sec/app-store@2x.jpg 2x
+                  "
+                />
+                <img src="./images/customers-sec/app-store.jpg" alt="" />
+              </picture>
+            </li>
+          </ul>
+        </div>
+        <div class="app__right">
+          <picture class="app__img-left">
+            <source
+              srcset="
+                ./images/customers-sec/guitar-screen1.png    1x,
+                ./images/customers-sec/guitar-screen1@2x.png 2x
+              "
+            />
+            <img src="./images/customers-sec/guitar-screen1.png" alt="" />
+          </picture>
+          <picture class="app__img-right">
+            <source
+              srcset="
+                ./images/customers-sec/guitar-screen2.png    1x,
+                ./images/customers-sec/guitar-screen2@2x.png 2x
+              "
+            />
+            <img src="./images/customers-sec/guitar-screen2.png" alt="" />
+          </picture>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__top">
+          <div class="footer__contact">
+            <a href="" class="footer__logo logo">
+              <svg width="28" height="28" class="header__logo-icon">
+                <use href="/images/sprite.svg#butterfly"></use>
+              </svg>
+              Rhythm
+            </a>
+            <a href="mailto:enquiry@Rhythm.com" class="footer__contact-item">
+              <svg class="footer__contact-icon" width="24" height="24">
+                <use href="./images/sprite.svg#mail"></use>
+              </svg>
+              Enquiry@Rhythm.com</a
+            >
+            <a href="" class="footer__contact-item">
+              <svg class="footer__contact-icon" width="24" height="24">
+                <use href="./images/sprite.svg#location"></use>
+              </svg>
+              San Francisco</a
+            >
+          </div>
+          <ul class="footer__about about__footer">
+            <li class="about__page">
+              <h2 class="about__title">Pages</h2>
+              <ul class="about__item">
+                <li class="about__list"><a href="" class="about__link">Store</a></li>
+                <li class="about__list"><a href="" class="about__link">Collections</a></li>
+                <li class="about__list"><a href="" class="about__link">Support</a></li>
+              </ul>
+            </li>
+            <li class="about__product">
+              <h2 class="about__title">Product</h2>
+              <ul class="about__item">
+                <li class="about__list"><a href="" class="about__link">Terms</a></li>
+                <li class="about__list"><a href="" class="about__link">Privacy Policy</a></li>
+                <li class="about__list"><a href="" class="about__link">Copyright</a></li>
+              </ul>
+            </li>
+            <li class="about__social">
+              <h2 class="about__title">Follow us</h2>
+              <ul class="about__item social__list">
+                <li class="social__item">
+                  <a href="" class="social__link">
+                    <svg class="social__icon" width="32" height="33">
+                      <use href="./images/sprite.svg#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="" class="social__link">
+                    <svg class="social__icon" width="32" height="33">
+                      <use href="./images/sprite.svg#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="" class="social__link">
+                    <svg class="social__icon" width="32" height="33">
+                      <use href="./images/sprite.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__bottom">&#9400; 2022 Copyright.Rhythm</div>
+      </div>
+    </footer>
   </body>
 </html>

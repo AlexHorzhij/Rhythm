@@ -39,3 +39,22 @@ img {
 .select {
     color: var(--brand-color);
 }
+
+.section__title{
+    font-family: 'Cal Sans';
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.logo{
+    font-family: 'Cal Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: var(--title-dark-text-color);
+}

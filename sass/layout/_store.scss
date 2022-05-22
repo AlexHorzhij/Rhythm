@@ -1,16 +1,16 @@
 .store {
+    margin-bottom: 180px;
     &__title {
-        font-family: 'Cal Sans';
-        font-weight: 600;
-        font-size: 44px;
-        line-height: 1.2;
-        text-align: center;
+        margin-bottom: 86px;
     }
-// .store__new {}
+    &__new {
+        margin-bottom: 96px;
+    }
     &__subtitle-wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 32px;
     }
     &__subtitle {
         font-weight: 600;
@@ -26,11 +26,24 @@
     }
     &__list {
         display: flex;
-
     }
-// .store__card {}
-// .card {}
-// .card__name {}
-// .card__price {}
+    &__card {
+        min-width: calc((100% - 108px) / 3);
+        line-height: 1.5;
+        &:not(:last-child){
+            margin-right: 54px;
+        }
+    }
 // .store__top {}
+}
+.card {
+    &__name {
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 7px;
+    }
+    &__price {
+        font-size: 14px;
+        color: var(--dark-text-color);
+    }
 }

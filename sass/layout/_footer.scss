@@ -1,0 +1,117 @@
+.footer {
+    padding-top: 80px;
+    padding-bottom: 43px;
+    background-color: #EEEEEE;
+    &__logo{
+        margin-bottom: 28px;
+    }
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 80px;
+    }
+
+    &__contact {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    &__bottom {
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.6;
+        color: rgba(18, 18, 18, 0.6);
+    }
+    &__contact {
+        &-icon{
+            margin-right: 20px;
+            fill: var(--dark-text-color);
+        }
+    }
+    &__contact-item {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        line-height: 1.6;
+        color: var(--dark-text-color);
+        &:not(:last-child){
+            margin-bottom: 20px;
+        }
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+        }
+    }
+}
+
+// .footer__about {}
+
+
+// .about__page-list {}
+
+
+.about{
+    &__footer {
+        display: flex;
+    }
+    &__page{
+        margin-right: 126px;
+    }
+    &__product{
+        margin-right: 160px;
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.5;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+        margin-bottom: 20px;
+    }
+    &__list{
+        &:not(:last-child){
+            margin-bottom: 16px;
+        }
+    }
+    &__link{
+        font-size: 16px;
+        line-height: 1.5;
+        color: rgba(18, 18, 18, 0.6);
+        &:hover,
+        &:focus{
+            text-decoration: underline;
+        }
+    }
+}
+
+// .about__item {}
+
+// .about__list {}
+
+// .social__list {}
+
+
+.social{
+    &__list {
+        display: flex;
+    }
+    &__item {
+        &:not(:last-child){
+            margin-right: 32px;
+        }
+    }
+    // &__link {
+    // }
+    &__icon {
+        fill: var(--title-dark-text-color);
+        opacity: 0.6;
+        &:hover,
+            &:focus {
+            fill: var(--brand-color);
+        }
+    }
+
+// .social__item-list {}
+}
