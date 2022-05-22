@@ -1,0 +1,16 @@
+@mixin size ($w, $h) {
+    width: $w;
+    height: $h;
+}
+
+@mixin font-style ($fw, $fs, $lh, $ls) {
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: decimal-round($lh / $fs, 2);
+    letter-spacing: $ls;
+}
+
+// как использовать миксин? В коде, когда вам нужно указать параметры шрифтов вы пишите
+// @include font-style (500, 14px, 28px, 0.03em); 
+// И всё! Пара-пара-пам!
+// Тоже самое с размерами @include size (40px, 40px);

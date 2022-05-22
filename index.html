@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rhythm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/fonts/CalSans-SemiBold.otf" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a href="/" class="header__logo">
+          <svg width="28" height="28" class="header__logo-icon">
+            <use href="/images/sprite.svg#butterfly"></use>
+          </svg>
+          Rhythm
+        </a>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">Store</li>
+            <li class="header__nav-item">Collections</li>
+            <li class="header__nav-item">Support</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container hero__container">
+        <div class="hero__text-content">
+          <h1 class="hero__title">Browse top quality <span class="select">Guitars</span> online</h1>
+          <p class="hero__text">
+            Explore 50k+ latest collections of branded guitars online with Rhythm.
+          </p>
+          <div class="hero__btn">
+            <a href="#" class="hero__stor-link">Get the App</a>
+            <svg width="26" height="29" class="hero__btn-icon">
+              <use href="/images/sprite.svg#play-market"></use>
+            </svg>
+            <svg width="26" height="32" class="hero__btn-icon">
+              <use href="/images/sprite.svg#apple"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="hero__decor-container">
+          <picture class="hero__image">
+            <source
+              srcset="./images/guitar/hero.jpg 1x, ./images/guitar/hero@2x.jpg 2x"
+              type="image/jpeg"
+            />
+            <img src="./images/guitar/hero.jpg" alt="guitar" />
+          </picture>
+          <div class="hero__decor">
+            <svg class="hero__decor-icon" whidth="24" height="24">
+              <use href="./images/sprite.svg#butterfly"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="store">
+      <div class="container">
+        <h2 class="store__title">Check out the <span class="select">Store</span></h2>
+        <div class="store__new">
+          <div class="store__subtitle-wrapper">
+            <h3 class="store__subtitle">New on the board</h3>
+            <span class="store__view">view all</span>
+          </div>
+          <ul class="store__list">
+            <li class="store__card card">
+              <picture>
+                <source
+                  srcset="./images/guitar/guitar3.png 1x, ./images/guitar/guitar3@2x.png 2x"
+                />
+                <img src="./images/guitar/guitar3.png" alt="" />
+              </picture>
+              <p class="card__name">The Essential Les Paul</p>
+              <p class="card__price">$1,299.00</p>
+            </li>
+            <li class="store__card card">
+              <picture>
+                <source
+                  srcset="./images/guitar/guitar2.png 1x, ./images/guitar/guitar2@2x.png 2x"
+                />
+                <img src="./images/guitar/guitar2.png" alt="" />
+              </picture>
+              <p class="card__name">J-45 Standard</p>
+              <p class="card__price">$1,699.00</p>
+            </li>
+            <li class="store__card card">
+              <picture>
+                <source
+                  srcset="./images/guitar/guitar1.png 1x, ./images/guitar/guitar1@2x.png 2x"
+                />
+                <img src="./images/guitar/guitar1.png" alt="" />
+              </picture>
+              <p class="card__name">Hummingbird Standard</p>
+              <p class="card__price">$2,099.00</p>
+            </li>
+          </ul>
+        </div>
+        <div class="store__top">
+          <div class="store__subtitle-wrapper">
+            <h3 class="store__subtitle">Top selling</h3>
+            <span class="store__view">view all</span>
+          </div>
+          <ul class="store__list">
+            <li class="store__card card">
+              <picture>
+                <source
+                  srcset="./images/guitar/guitar6.png 1x, ./images/guitar/guitar6@2x.png 2x"
+                />
+                <img src="./images/guitar/guitar6.png" alt="" />
+              </picture>
+              <p class="card__name">Active Precision Bass® PH V</p>
+              <p class="card__price">$4,199.00</p>
+            </li>
+            <li class="store__card card">
+              <picture>
+                <source
+                  srcset="./images/guitar/guitar5.png 1x, ./images/guitar/guitar5@2x.png 2x"
+                />
+                <img src="./images/guitar/guitar5.png" alt="" />
+              </picture>
+              <p class="card__name">Redondo Special</p>
+              <p class="card__price">$2,800.00</p>
+            </li>
+            <li class="store__card card">
+              <picture>
+                <source
+                  srcset="./images/guitar/guitar4.png 1x, ./images/guitar/guitar4@2x.png 2x"
+                />
+                <img src="./images/guitar/guitar4.png" alt="" />
+              </picture>
+              <p class="card__name">Professional II Stratocaster®</p>
+              <p class="card__price">$3,199.00</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

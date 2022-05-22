@@ -1,0 +1,74 @@
+.hero {
+    padding-top: 82px;
+    padding-bottom: 140px;
+    &__container{
+        position: relative;
+    }
+    &__text-content {
+        max-width: 469px;
+        position: relative;
+        z-index: 10;
+        }
+    &__title{
+        font-family: 'Cal Sans';
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 1.2;
+        margin-bottom: 16px;
+        &-select {
+            color: var(--brand-color);
+        }
+    }
+    &__text{
+        font-weight: 500;
+        color: var(--dark-text-color);
+        margin-bottom: 33px;
+    }
+    &__stor-link{
+        min-width: 192px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        height: 54px;
+        font-weight: 600;
+        padding: 0 48px;
+        color: var(--title-ligth-text-color);
+        background-color: var(--brand-color);
+        border-radius: 27px;
+        margin-right: 40px;
+    }
+    &__btn{
+        display: flex;
+        align-items: center;
+        flex: 0 1 auto;
+        &-icon{
+            fill: #B2B2B2;  
+            display: flex;
+            align-items: center;
+            &:not(:last-child){
+                margin-right: 28px;
+            }
+        }
+    }
+    &__decor-container{
+        position: absolute;
+        right: -120px;
+        top: -235px; 
+        z-index: 1;
+        }
+    &__decor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: -40px;
+        right: 244px;
+        @include size (80px, 80px);
+        border-radius: 50%;
+        background-color: var(--title-ligth-text-color);
+        &-icon{
+            fill: var(--brand-color);
+        }
+    }
+
+}

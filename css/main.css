@@ -1,0 +1,224 @@
+body {
+  font-family: 'Poppins Regular', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--title-dark-text-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.select {
+  color: var(--brand-color);
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  max-width: 1230px;
+}
+
+:root {
+  --brand-color: #FF6428;
+  --title-dark-text-color: #121212;
+  --secondary-dark-text-color: rgba(18, 18, 18, 0.4);
+  --title-ligth-text-color: #ffffff;
+  --dark-text-color: #666666;
+}
+
+@font-face {
+  font-family: 'Cal Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/CalSans-SemiBold.woff2) format("woff2"), url(/fonts/CalSans-SemiBold.woff) format("woff");
+}
+
+.header {
+  position: relative;
+  padding-top: 62px;
+  padding-bottom: 62px;
+  background-color: transparent;
+  z-index: 10;
+}
+
+.header__logo {
+  font-family: 'Cal Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  margin-right: 131px;
+}
+
+.header__logo-icon {
+  fill: var(--brand-color);
+  margin-right: 12px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav-list {
+  display: flex;
+}
+
+.header__nav-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--secondary-dark-text-color);
+}
+
+.header__nav-item:not(:last-child) {
+  margin-right: 56px;
+}
+
+.hero {
+  padding-top: 82px;
+  padding-bottom: 140px;
+}
+
+.hero__container {
+  position: relative;
+}
+
+.hero__text-content {
+  max-width: 469px;
+  position: relative;
+  z-index: 10;
+}
+
+.hero__title {
+  font-family: 'Cal Sans';
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.hero__title-select {
+  color: var(--brand-color);
+}
+
+.hero__text {
+  font-weight: 500;
+  color: var(--dark-text-color);
+  margin-bottom: 33px;
+}
+
+.hero__stor-link {
+  min-width: 192px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 54px;
+  font-weight: 600;
+  padding: 0 48px;
+  color: var(--title-ligth-text-color);
+  background-color: var(--brand-color);
+  border-radius: 27px;
+  margin-right: 40px;
+}
+
+.hero__btn {
+  display: flex;
+  align-items: center;
+  flex: 0 1 auto;
+}
+
+.hero__btn-icon {
+  fill: #B2B2B2;
+  display: flex;
+  align-items: center;
+}
+
+.hero__btn-icon:not(:last-child) {
+  margin-right: 28px;
+}
+
+.hero__decor-container {
+  position: absolute;
+  right: -120px;
+  top: -235px;
+  z-index: 1;
+}
+
+.hero__decor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -40px;
+  right: 244px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--title-ligth-text-color);
+}
+
+.hero__decor-icon {
+  fill: var(--brand-color);
+}
+
+.store__title {
+  font-family: 'Cal Sans';
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.store__subtitle-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.store__subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.08em;
+}
+
+.store__view {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #868686;
+}
+
+.store__list {
+  display: flex;
+}
+/*# sourceMappingURL=main.css.map */

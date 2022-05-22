@@ -1,0 +1,36 @@
+.store {
+    &__title {
+        font-family: 'Cal Sans';
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 1.2;
+        text-align: center;
+    }
+// .store__new {}
+    &__subtitle-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__subtitle {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.5;
+        letter-spacing: 0.08em;
+    }
+    &__view {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.5;
+        color: #868686;
+    }
+    &__list {
+        display: flex;
+
+    }
+// .store__card {}
+// .card {}
+// .card__name {}
+// .card__price {}
+// .store__top {}
+}
