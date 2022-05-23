@@ -377,7 +377,7 @@ img {
   position: relative;
   height: 341px;
   flex: 0 0 407px;
-  background-image: url(/images/customers-sec/customer-bg.png);
+  background-image: url(./images/customers-sec/customer-bg.png);
   background-position: left 0 center;
   background-repeat: no-repeat;
   margin-right: 146px;
@@ -450,7 +450,7 @@ img {
   position: relative;
   width: 568px;
   height: 533px;
-  background-image: url(/images/customers-sec/app-bg.png);
+  background-image: url(./images/customers-sec/app-bg.png);
   background-repeat: no-repeat;
   background-position: center;
 }
