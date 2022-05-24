@@ -1,5 +1,8 @@
 .header {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     padding-top: 62px;
     padding-bottom: 62px;
     background-color: transparent;
@@ -27,12 +30,18 @@
     }
 
     &__nav-item {
+        &:not(:last-child){
+            margin-right: 56px;
+        }
+    }
+    &__nav-link{
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         color: var(--secondary-dark-text-color);
-        &:not(:last-child){
-            margin-right: 56px;
+        &:hover,
+        &:focus{
+            text-decoration: underline;
         }
     }
 }

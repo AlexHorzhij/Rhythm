@@ -1,5 +1,5 @@
 .hero {
-    padding-top: 82px;
+    padding-top: 235px;
     padding-bottom: 140px;
     &__container{
         position: relative;
@@ -20,11 +20,12 @@
         }
     }
     &__text{
+        max-width: 396px;
         font-weight: 500;
         color: var(--dark-text-color);
         margin-bottom: 33px;
     }
-    &__stor-link{
+    &__store-link{
         min-width: 192px;
         display: inline-flex;
         justify-content: center;
@@ -36,6 +37,11 @@
         background-color: var(--brand-color);
         border-radius: 27px;
         margin-right: 40px;
+        transition: transform 250ms ease;
+        &:hover,
+        &:focus{
+            transform: scale(1.07);
+        }
     }
     &__btn{
         display: flex;
@@ -55,6 +61,10 @@
         right: -120px;
         top: -235px; 
         z-index: 1;
+        max-width: 672px;
+        height: 586px;
+        background-image: url(../images/guitar/hero.jpg);
+        background-size: cover;
         }
     &__decor{
         display: flex;

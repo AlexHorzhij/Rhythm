@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rhythm</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
       rel="stylesheet"
@@ -22,411 +22,419 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container header__container">
-        <a href="/" class="header__logo logo">
-          <svg width="28" height="28" class="header__logo-icon">
-            <use href="./images/sprite.svg#butterfly"></use>
-          </svg>
-          Rhythm
-        </a>
-        <nav class="header__nav">
-          <ul class="header__nav-list">
-            <li class="header__nav-item">Store</li>
-            <li class="header__nav-item">Collections</li>
-            <li class="header__nav-item">Support</li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <section class="hero">
-      <div class="container hero__container">
-        <div class="hero__text-content">
-          <h1 class="hero__title">Browse top quality <span class="select">Guitars</span> online</h1>
-          <p class="hero__text">
-            Explore 50k+ latest collections of branded guitars online with Rhythm.
-          </p>
-          <div class="hero__btn">
-            <a href="#" class="hero__stor-link">Get the App</a>
-            <svg width="26" height="29" class="hero__btn-icon">
-              <use href="./images/sprite.svg#play-market"></use>
-            </svg>
-            <svg width="26" height="32" class="hero__btn-icon">
-              <use href="./images/sprite.svg#apple"></use>
-            </svg>
-          </div>
-        </div>
-        <div class="hero__decor-container">
-          <picture class="hero__image">
-            <source
-              srcset="./images/guitar/hero.jpg 1x, ./images/guitar/hero@2x.jpg 2x"
-              type="image/jpeg"
-            />
-            <img src="./images/guitar/hero.jpg" alt="guitar" />
-          </picture>
-          <div class="hero__decor">
-            <svg class="hero__decor-icon" width="24" height="24">
+    <div class="wrapper">
+      <header class="header">
+        <div class="container header__container">
+          <a href="/" class="header__logo logo">
+            <svg width="28" height="28" class="header__logo-icon">
               <use href="./images/sprite.svg#butterfly"></use>
             </svg>
-          </div>
+            Rhythm
+          </a>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item"><a class="header__nav-link" href="">Store</a></li>
+              <li class="header__nav-item"><a class="header__nav-link" href="">Collections</a></li>
+              <li class="header__nav-item"><a class="header__nav-link" href="">Support</a></li>
+            </ul>
+          </nav>
         </div>
-      </div>
-    </section>
-    <section class="store">
-      <div class="container">
-        <h2 class="store__title section__title">Check out the <span class="select">Store</span></h2>
-        <div class="store__new">
-          <div class="store__subtitle-wrapper">
-            <h3 class="store__subtitle">New on the board</h3>
-            <a href="/" class="store__view">view all</a>
-          </div>
-          <ul class="store__list">
-            <li class="store__card card">
-              <picture>
-                <source
-                  srcset="./images/guitar/guitar3.png 1x, ./images/guitar/guitar3@2x.png 2x"
-                />
-                <img src="./images/guitar/guitar3.png" alt="" />
-              </picture>
-              <p class="card__name">The Essential Les Paul</p>
-              <p class="card__price">$1,299.00</p>
-            </li>
-            <li class="store__card card">
-              <picture>
-                <source
-                  srcset="./images/guitar/guitar2.png 1x, ./images/guitar/guitar2@2x.png 2x"
-                />
-                <img src="./images/guitar/guitar2.png" alt="" />
-              </picture>
-              <p class="card__name">J-45 Standard</p>
-              <p class="card__price">$1,699.00</p>
-            </li>
-            <li class="store__card card">
-              <picture>
-                <source
-                  srcset="./images/guitar/guitar1.png 1x, ./images/guitar/guitar1@2x.png 2x"
-                />
-                <img src="./images/guitar/guitar1.png" alt="" />
-              </picture>
-              <p class="card__name">Hummingbird Standard</p>
-              <p class="card__price">$2,099.00</p>
-            </li>
-          </ul>
-        </div>
-        <div class="store__top">
-          <div class="store__subtitle-wrapper">
-            <h3 class="store__subtitle">Top selling</h3>
-            <a href="/" class="store__view">view all</a>
-          </div>
-          <ul class="store__list">
-            <li class="store__card card">
-              <picture>
-                <source
-                  srcset="./images/guitar/guitar6.png 1x, ./images/guitar/guitar6@2x.png 2x"
-                />
-                <img src="./images/guitar/guitar6.png" alt="" />
-              </picture>
-              <p class="card__name">Active Precision Bass® PH V</p>
-              <p class="card__price">$4,199.00</p>
-            </li>
-            <li class="store__card card">
-              <picture>
-                <source
-                  srcset="./images/guitar/guitar5.png 1x, ./images/guitar/guitar5@2x.png 2x"
-                />
-                <img src="./images/guitar/guitar5.png" alt="" />
-              </picture>
-              <p class="card__name">Redondo Special</p>
-              <p class="card__price">$2,800.00</p>
-            </li>
-            <li class="store__card card">
-              <picture>
-                <source
-                  srcset="./images/guitar/guitar4.png 1x, ./images/guitar/guitar4@2x.png 2x"
-                />
-                <img src="./images/guitar/guitar4.png" alt="" />
-              </picture>
-              <p class="card__name">Professional II Stratocaster®</p>
-              <p class="card__price">$3,199.00</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <section class="categories">
-      <div class="container">
-        <h2 class="categories__title section__title">
-          Choose based on <span class="select">Categories</span>
-        </h2>
-        <ul class="categories__list">
-          <li class="categories__item">
-            <a href="">
-              <picture>
-                <source
-                  srcset="
-                    ./images/guitar/guitar-acoustic.jpg    1x,
-                    ./images/guitar/guitar-acoustic@2x.jpg 2x
-                  "
-                  type="image/jpeg"
-                />
-                <img src="./images/guitar/guitar-acoustic.jpg" alt="" />
-              </picture>
-            </a>
-          </li>
-          <li class="categories__item">
-            <a href="">
-              <picture>
-                <source
-                  srcset="
-                    ./images/guitar/guitar-electric.jpg    1x,
-                    ./images/guitar/guitar-electric@2x.jpg 2x
-                  "
-                  type="image/jpeg"
-                />
-                <img src="./images/guitar/guitar-electric.jpg" alt="" />
-              </picture>
-            </a>
-          </li>
-          <li class="categories__item">
-            <a href="">
-              <picture>
-                <source
-                  srcset="
-                    ./images/guitar/guitar-basses.jpg    1x,
-                    ./images/guitar/guitar-basses@2x.jpg 2x
-                  "
-                  type="image/jpeg"
-                />
-                <img src="./images/guitar/guitar-basses.jpg" alt="" />
-              </picture>
-            </a>
-          </li>
-          <li class="categories__item">
-            <a href="">
-              <picture>
-                <source
-                  srcset="
-                    ./images/guitar/guitar-collection.jpg    1x,
-                    ./images/guitar/guitar-collection@2x.jpg 2x
-                  "
-                  type="image/jpeg"
-                />
-                <img src="./images/guitar/guitar-collection.jpg" alt="" />
-              </picture>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="brands">
-      <div class="container">
-        <h2 class="brands__title section__title">
-          Featuring the <span class="select">Best Brands</span>
-        </h2>
-
-        <ul class="brands__list">
-          <li class="brands__item">
-            <a href=""><img src="./images/brands/brand1.png" alt="" /></a>
-          </li>
-          <li class="brands__item">
-            <a href=""><img src="./images/brands/brand2.png" alt="" /></a>
-          </li>
-          <li class="brands__item">
-            <a href=""><img src="./images/brands/brand3.png" alt="" /></a>
-          </li>
-          <li class="brands__item">
-            <a href=""><img src="./images/brands/brand4.png" alt="" /></a>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="benefits">
-      <div class="container">
-        <h2 class="benefits__title section__title">Why try <span class="select">Rhythm?</span></h2>
-        <ul class="benefits__list">
-          <li class="benefits__item">
-            <div class="benefits__icon-group">
-              <svg class="benefits__icon" width="32" height="32">
-                <use href="./images/sprite.svg#category"></use>
-              </svg>
-            </div>
-            <h3 class="benefits__subtitle">Smooth Browsing</h3>
-            <p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </li>
-          <li class="benefits__item">
-            <div class="benefits__icon-group">
-              <svg class="benefits__icon" width="32" height="32">
-                <use href="./images/sprite.svg#group"></use>
-              </svg>
-            </div>
-            <h3 class="benefits__subtitle">EASY Delivery</h3>
-            <p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </li>
-          <li class="benefits__item">
-            <div class="benefits__icon-group">
-              <svg class="benefits__icon" width="32" height="32">
-                <use href="./images/sprite.svg#wallet-tick"></use>
-              </svg>
-            </div>
-            <h3 class="benefits__subtitle">Smooth Browsing</h3>
-            <p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="customer">
-      <div class="container">
-        <h2 class="customer__title section__title">
-          What our <span class="select">customer’s</span> say
-        </h2>
-        <div class="customer__wrapper">
-          <div class="customer__img-wrapper">
-            <picture class="customer__img">
-              <source
-                srcset="
-                  ./images/customers-sec/customer.png    1x,
-                  ./images/customers-sec/customer@2x.png 2x
-                "
-                type="image/jpg"
-              />
-              <img src="./images/customers-sec/customer.png" alt="" />
-            </picture>
-          </div>
-          <div class="customer__text-wrapper">
-            <p class="customer__text">
-              “The Quality and Delivery is always on time, being a professional guitarist myself I
-              love the customer service the brand provides, highly recommend Rhythm anytime.”
+      </header>
+      <section class="hero">
+        <div class="container hero__container">
+          <div class="hero__text-content">
+            <h1 class="hero__title">
+              Browse top quality <span class="select">Guitars</span> online
+            </h1>
+            <p class="hero__text">
+              Explore 50k+ latest collections of branded guitars online with Rhythm.
             </p>
-            <h3 class="customer__name">Ryan Wels</h3>
-            <p class="customer__position">PROFESSIONAL GUITARIST</p>
-            <ul class="customer__mark"></ul>
+            <div class="hero__btn">
+              <a href="#" class="hero__store-link">Get the App</a>
+              <svg width="26" height="29" class="hero__btn-icon">
+                <use href="./images/sprite.svg#play-market"></use>
+              </svg>
+              <svg width="26" height="32" class="hero__btn-icon">
+                <use href="./images/sprite.svg#apple"></use>
+              </svg>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <section class="app">
-      <div class="container app__wrapper">
-        <div class="app__left">
-          <h2 class="app__title section__title">
-            Browse and buy your <span class="select">favorite guitars</span> with Rhythm.
-          </h2>
-          <ul class="app__list">
-            <li class="app__item">
-              <picture>
-                <source
-                  srcset="
-                    ./images/customers-sec/google-store.jpg    1x,
-                    ./images/customers-sec/google-store@2x.jpg 2x
-                  "
-                />
-                <img src="./images/customers-sec/google-store.jpg" alt="" />
-              </picture>
-            </li>
-            <li class="app__item">
-              <picture>
-                <source
-                  srcset="
-                    ./images/customers-sec/app-store.jpg    1x,
-                    ./images/customers-sec/app-store@2x.jpg 2x
-                  "
-                />
-                <img src="./images/customers-sec/app-store.jpg" alt="" />
-              </picture>
-            </li>
-          </ul>
-        </div>
-        <div class="app__right">
-          <picture class="app__img-left">
-            <source
-              srcset="
-                ./images/customers-sec/guitar-screen1.png    1x,
-                ./images/customers-sec/guitar-screen1@2x.png 2x
-              "
-            />
-            <img src="./images/customers-sec/guitar-screen1.png" alt="" />
-          </picture>
-          <picture class="app__img-right">
-            <source
-              srcset="
-                ./images/customers-sec/guitar-screen2.png    1x,
-                ./images/customers-sec/guitar-screen2@2x.png 2x
-              "
-            />
-            <img src="./images/customers-sec/guitar-screen2.png" alt="" />
-          </picture>
-        </div>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="container footer__container">
-        <div class="footer__top">
-          <div class="footer__contact">
-            <a href="" class="footer__logo logo">
-              <svg width="28" height="28" class="header__logo-icon">
+          <div class="hero__decor-container">
+            <picture class="hero__image">
+              <source
+                srcset="./images/guitar/hero.jpg 1x, ./images/guitar/hero@2x.jpg 2x"
+                type="image/jpeg"
+              />
+              <img src="./images/guitar/hero.jpg" alt="guitar" />
+            </picture>
+            <div class="hero__decor">
+              <svg class="hero__decor-icon" width="24" height="24">
                 <use href="./images/sprite.svg#butterfly"></use>
               </svg>
-              Rhythm
-            </a>
-            <a href="mailto:enquiry@Rhythm.com" class="footer__contact-item">
-              <svg class="footer__contact-icon" width="24" height="24">
-                <use href="./images/sprite.svg#mail"></use>
-              </svg>
-              Enquiry@Rhythm.com</a
-            >
-            <a href="" class="footer__contact-item">
-              <svg class="footer__contact-icon" width="24" height="24">
-                <use href="./images/sprite.svg#location"></use>
-              </svg>
-              San Francisco</a
-            >
+            </div>
           </div>
-          <ul class="footer__about about__footer">
-            <li class="about__page">
-              <h2 class="about__title">Pages</h2>
-              <ul class="about__item">
-                <li class="about__list"><a href="" class="about__link">Store</a></li>
-                <li class="about__list"><a href="" class="about__link">Collections</a></li>
-                <li class="about__list"><a href="" class="about__link">Support</a></li>
-              </ul>
+        </div>
+      </section>
+      <section class="store">
+        <div class="container">
+          <h2 class="store__title section__title">
+            Check out the <span class="select">Store</span>
+          </h2>
+          <div class="store__new">
+            <div class="store__subtitle-wrapper">
+              <h3 class="store__subtitle">New on the board</h3>
+              <a href="/" class="store__view">view all</a>
+            </div>
+            <ul class="store__list">
+              <li class="store__card card">
+                <picture>
+                  <source
+                    srcset="./images/guitar/guitar3.png 1x, ./images/guitar/guitar3@2x.png 2x"
+                  />
+                  <img src="./images/guitar/guitar3.png" alt="" />
+                </picture>
+                <p class="card__name">The Essential Les Paul</p>
+                <p class="card__price">$1,299.00</p>
+              </li>
+              <li class="store__card card">
+                <picture>
+                  <source
+                    srcset="./images/guitar/guitar2.png 1x, ./images/guitar/guitar2@2x.png 2x"
+                  />
+                  <img src="./images/guitar/guitar2.png" alt="" />
+                </picture>
+                <p class="card__name">J-45 Standard</p>
+                <p class="card__price">$1,699.00</p>
+              </li>
+              <li class="store__card card">
+                <picture>
+                  <source
+                    srcset="./images/guitar/guitar1.png 1x, ./images/guitar/guitar1@2x.png 2x"
+                  />
+                  <img src="./images/guitar/guitar1.png" alt="" />
+                </picture>
+                <p class="card__name">Hummingbird Standard</p>
+                <p class="card__price">$2,099.00</p>
+              </li>
+            </ul>
+          </div>
+          <div class="store__top">
+            <div class="store__subtitle-wrapper">
+              <h3 class="store__subtitle">Top selling</h3>
+              <a href="/" class="store__view">view all</a>
+            </div>
+            <ul class="store__list">
+              <li class="store__card card">
+                <picture>
+                  <source
+                    srcset="./images/guitar/guitar6.png 1x, ./images/guitar/guitar6@2x.png 2x"
+                  />
+                  <img src="./images/guitar/guitar6.png" alt="" />
+                </picture>
+                <p class="card__name">Active Precision Bass® PH V</p>
+                <p class="card__price">$4,199.00</p>
+              </li>
+              <li class="store__card card">
+                <picture>
+                  <source
+                    srcset="./images/guitar/guitar5.png 1x, ./images/guitar/guitar5@2x.png 2x"
+                  />
+                  <img src="./images/guitar/guitar5.png" alt="" />
+                </picture>
+                <p class="card__name">Redondo Special</p>
+                <p class="card__price">$2,800.00</p>
+              </li>
+              <li class="store__card card">
+                <picture>
+                  <source
+                    srcset="./images/guitar/guitar4.png 1x, ./images/guitar/guitar4@2x.png 2x"
+                  />
+                  <img src="./images/guitar/guitar4.png" alt="" />
+                </picture>
+                <p class="card__name">Professional II Stratocaster®</p>
+                <p class="card__price">$3,199.00</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="categories">
+        <div class="container">
+          <h2 class="categories__title section__title">
+            Choose based on <span class="select">Categories</span>
+          </h2>
+          <ul class="categories__list">
+            <li class="categories__item">
+              <a href="">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/guitar/guitar-acoustic.jpg    1x,
+                      ./images/guitar/guitar-acoustic@2x.jpg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <img src="./images/guitar/guitar-acoustic.jpg" alt="" />
+                </picture>
+              </a>
             </li>
-            <li class="about__product">
-              <h2 class="about__title">Product</h2>
-              <ul class="about__item">
-                <li class="about__list"><a href="" class="about__link">Terms</a></li>
-                <li class="about__list"><a href="" class="about__link">Privacy Policy</a></li>
-                <li class="about__list"><a href="" class="about__link">Copyright</a></li>
-              </ul>
+            <li class="categories__item">
+              <a href="">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/guitar/guitar-electric.jpg    1x,
+                      ./images/guitar/guitar-electric@2x.jpg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <img src="./images/guitar/guitar-electric.jpg" alt="" />
+                </picture>
+              </a>
             </li>
-            <li class="about__social">
-              <h2 class="about__title">Follow us</h2>
-              <ul class="about__item social__list">
-                <li class="social__item">
-                  <a href="" class="social__link">
-                    <svg class="social__icon" width="32" height="33">
-                      <use href="./images/sprite.svg#facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a href="" class="social__link">
-                    <svg class="social__icon" width="32" height="33">
-                      <use href="./images/sprite.svg#twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a href="" class="social__link">
-                    <svg class="social__icon" width="32" height="33">
-                      <use href="./images/sprite.svg#instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
+            <li class="categories__item">
+              <a href="">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/guitar/guitar-basses.jpg    1x,
+                      ./images/guitar/guitar-basses@2x.jpg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <img src="./images/guitar/guitar-basses.jpg" alt="" />
+                </picture>
+              </a>
+            </li>
+            <li class="categories__item">
+              <a href="">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/guitar/guitar-collection.jpg    1x,
+                      ./images/guitar/guitar-collection@2x.jpg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <img src="./images/guitar/guitar-collection.jpg" alt="" />
+                </picture>
+              </a>
             </li>
           </ul>
         </div>
-        <div class="footer__bottom">&#9400; 2022 Copyright.Rhythm</div>
-      </div>
-    </footer>
+      </section>
+      <section class="brands">
+        <div class="container">
+          <h2 class="brands__title section__title">
+            Featuring the <span class="select">Best Brands</span>
+          </h2>
+
+          <ul class="brands__list">
+            <li class="brands__item">
+              <a href=""><img src="./images/brands/brand1.png" alt="" /></a>
+            </li>
+            <li class="brands__item">
+              <a href=""><img src="./images/brands/brand2.png" alt="" /></a>
+            </li>
+            <li class="brands__item">
+              <a href=""><img src="./images/brands/brand3.png" alt="" /></a>
+            </li>
+            <li class="brands__item">
+              <a href=""><img src="./images/brands/brand4.png" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="benefits">
+        <div class="container">
+          <h2 class="benefits__title section__title">
+            Why try <span class="select">Rhythm?</span>
+          </h2>
+          <ul class="benefits__list">
+            <li class="benefits__item">
+              <div class="benefits__icon-group">
+                <svg class="benefits__icon" width="32" height="32">
+                  <use href="./images/sprite.svg#category"></use>
+                </svg>
+              </div>
+              <h3 class="benefits__subtitle">Smooth Browsing</h3>
+              <p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </li>
+            <li class="benefits__item">
+              <div class="benefits__icon-group">
+                <svg class="benefits__icon" width="32" height="32">
+                  <use href="./images/sprite.svg#group"></use>
+                </svg>
+              </div>
+              <h3 class="benefits__subtitle">EASY Delivery</h3>
+              <p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </li>
+            <li class="benefits__item">
+              <div class="benefits__icon-group">
+                <svg class="benefits__icon" width="32" height="32">
+                  <use href="./images/sprite.svg#wallet-tick"></use>
+                </svg>
+              </div>
+              <h3 class="benefits__subtitle">Smooth Browsing</h3>
+              <p class="benefits__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="customer">
+        <div class="container">
+          <h2 class="customer__title section__title">
+            What our <span class="select">customer’s</span> say
+          </h2>
+          <div class="customer__wrapper">
+            <div class="customer__img-wrapper">
+              <picture class="customer__img">
+                <source
+                  srcset="
+                    ./images/customers-sec/customer.png    1x,
+                    ./images/customers-sec/customer@2x.png 2x
+                  "
+                  type="image/jpg"
+                />
+                <img src="./images/customers-sec/customer.png" alt="" />
+              </picture>
+            </div>
+            <div class="customer__text-wrapper">
+              <p class="customer__text">
+                “The Quality and Delivery is always on time, being a professional guitarist myself I
+                love the customer service the brand provides, highly recommend Rhythm anytime.”
+              </p>
+              <h3 class="customer__name">Ryan Wels</h3>
+              <p class="customer__position">PROFESSIONAL GUITARIST</p>
+              <ul class="customer__mark"></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="app">
+        <div class="container app__wrapper">
+          <div class="app__left">
+            <h2 class="app__title section__title">
+              Browse and buy your <span class="select">favorite guitars</span> with Rhythm.
+            </h2>
+            <ul class="app__list">
+              <li class="app__item">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/customers-sec/google-store.jpg    1x,
+                      ./images/customers-sec/google-store@2x.jpg 2x
+                    "
+                  />
+                  <img src="./images/customers-sec/google-store.jpg" alt="" />
+                </picture>
+              </li>
+              <li class="app__item">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/customers-sec/app-store.jpg    1x,
+                      ./images/customers-sec/app-store@2x.jpg 2x
+                    "
+                  />
+                  <img src="./images/customers-sec/app-store.jpg" alt="" />
+                </picture>
+              </li>
+            </ul>
+          </div>
+          <div class="app__right">
+            <picture class="app__img-left">
+              <source
+                srcset="
+                  ./images/customers-sec/guitar-screen1.png    1x,
+                  ./images/customers-sec/guitar-screen1@2x.png 2x
+                "
+              />
+              <img src="./images/customers-sec/guitar-screen1.png" alt="" />
+            </picture>
+            <picture class="app__img-right">
+              <source
+                srcset="
+                  ./images/customers-sec/guitar-screen2.png    1x,
+                  ./images/customers-sec/guitar-screen2@2x.png 2x
+                "
+              />
+              <img src="./images/customers-sec/guitar-screen2.png" alt="" />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container footer__container">
+          <div class="footer__top">
+            <div class="footer__contact">
+              <a href="" class="footer__logo logo">
+                <svg width="28" height="28" class="header__logo-icon">
+                  <use href="./images/sprite.svg#butterfly"></use>
+                </svg>
+                Rhythm
+              </a>
+              <a href="mailto:enquiry@Rhythm.com" class="footer__contact-item">
+                <svg class="footer__contact-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#mail"></use>
+                </svg>
+                Enquiry@Rhythm.com</a
+              >
+              <a href="" class="footer__contact-item">
+                <svg class="footer__contact-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#location"></use>
+                </svg>
+                San Francisco</a
+              >
+            </div>
+            <ul class="footer__about about__footer">
+              <li class="about__page">
+                <h2 class="about__title">Pages</h2>
+                <ul class="about__item">
+                  <li class="about__list"><a href="" class="about__link">Store</a></li>
+                  <li class="about__list"><a href="" class="about__link">Collections</a></li>
+                  <li class="about__list"><a href="" class="about__link">Support</a></li>
+                </ul>
+              </li>
+              <li class="about__product">
+                <h2 class="about__title">Product</h2>
+                <ul class="about__item">
+                  <li class="about__list"><a href="" class="about__link">Terms</a></li>
+                  <li class="about__list"><a href="" class="about__link">Privacy Policy</a></li>
+                  <li class="about__list"><a href="" class="about__link">Copyright</a></li>
+                </ul>
+              </li>
+              <li class="about__social">
+                <h2 class="about__title">Follow us</h2>
+                <ul class="about__item social__list">
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="32" height="33">
+                        <use href="./images/sprite.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="32" height="33">
+                        <use href="./images/sprite.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social__item">
+                    <a href="" class="social__link">
+                      <svg class="social__icon" width="32" height="33">
+                        <use href="./images/sprite.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__bottom">&#9400; 2022 Copyright.Rhythm</div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
