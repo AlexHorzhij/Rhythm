@@ -108,6 +108,8 @@ img {
 }
 
 .header__nav-list {
+  box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   display: flex;
 }
 
